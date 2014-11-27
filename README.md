@@ -1,4 +1,4 @@
-ui-kit
+Squareteam `ui-kit`
 ======
 
-Squareteam ui-kit (using cssstyle)
+Using great [csstyle](http://www.csstyle.io/) mixins
