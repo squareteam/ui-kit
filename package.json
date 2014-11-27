@@ -1,0 +1,27 @@
+{
+  "name": "squareteam-ui-kit",
+  "version": "1.0.0",
+  "description": "Squareteam ui-kit",
+  "main": "dist/ui-kit.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/squareteam/ui-kit.git"
+  },
+  "keywords": [
+    "sass",
+    "ui-kit",
+    "css"
+  ],
+  "author": "Charly POLY <cpoly55@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/squareteam/ui-kit/issues"
+  },
+  "homepage": "https://github.com/squareteam/ui-kit",
+  "devDependencies": {
+    "csstyle": "^1.1.0"
+  }
+}
