@@ -65,6 +65,9 @@
                <textarea   name="" id="" cols="66" rows="10"
                            class="input input__text --minimal"></textarea>
             </p>
+            <div class="input input__notice --warning">
+               6500 characters maximum
+            </div>
 
          </form>
 
@@ -97,6 +100,17 @@
             <p>
                <input   type="email" value="invalid@email"
                         class="input input__text --fancy error">
+            </p>
+            <p>
+               <input   type="password" value="1234"
+                        class="input input__text --fancy error">
+            </p>
+            <p>
+               <input   type="password" value="123423423"
+                        class="input input__text --fancy error">
+               <div class="input input__notice --error">
+                  Password confirmation doesn't match
+               </div>
             </p>
 
          </form>

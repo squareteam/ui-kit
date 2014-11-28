@@ -79,7 +79,22 @@
   font-weight: 500;
 }
 
-/* line 33, ../sass/components/inputs.scss */
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.input__notice.\--error {
+  color: #d34336;
+  font-size: 0.75em;
+  padding: 0.5em 0 !important;
+  margin-top: 0;
+}
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.input__notice.\--warning {
+  color: #FF9D00;
+  font-size: 0.75em;
+  padding: 0.5em 0 !important;
+  margin-top: 0;
+  padding: 0.5em 0;
+}
+/* line 49, ../sass/components/inputs.scss */
 .input__text:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset;
 }
@@ -95,11 +110,11 @@
   margin-top: 30px;
   height: 30px;
 }
-/* line 47, ../sass/components/inputs.scss */
+/* line 63, ../sass/components/inputs.scss */
 .input__text.\--fancy:focus {
   outline: none;
 }
-/* line 51, ../sass/components/inputs.scss */
+/* line 67, ../sass/components/inputs.scss */
 .input__text.\--fancy.error, .input__text.\--fancy.ng-invalid.ng-dirty {
   color: #fb7575;
 }
@@ -114,7 +129,7 @@
   font-weight: 300;
   font-family: Avenir;
 }
-/* line 66, ../sass/components/inputs.scss */
+/* line 82, ../sass/components/inputs.scss */
 .input__text.\--minimal:hover, .input__text.\--minimal:focus {
   color: #57c0df;
   outline: none;
