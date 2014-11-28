@@ -70,12 +70,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 10, ../sass/screen.scss */
 body {
   background-color: #efeff1;
-  padding-top: 50px;
   font-family: "Museo sans",sans-serif;
   font-weight: 300;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 .flex-centered {
   display: flex;
   justify-content: center;
@@ -105,4 +104,9 @@ body {
 #csstyle .\+flex-hack {
   line-height: 45px;
   margin-left: 25px;
+}
+
+/* line 73, ../node_modules/csstyle/csstyle.scss */
+#csstyle .\+logo {
+  margin-bottom: 60px;
 }

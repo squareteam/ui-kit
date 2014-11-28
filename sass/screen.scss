@@ -9,7 +9,6 @@
 
 body {
    background-color: #efeff1;
-   padding-top: 50px;
 
    font-family: "Museo sans",sans-serif;
    font-weight: 300;
@@ -43,4 +42,8 @@ body {
 @include tweak(flex-hack) {
    line-height: 45px;
    margin-left: 25px;
+}
+
+@include tweak(logo) {
+   margin-bottom: 60px;
 }
