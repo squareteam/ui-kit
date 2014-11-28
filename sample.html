@@ -12,15 +12,141 @@
 </head>
 <body id="csstyle">
 
-   <div class="block --centered --padding">
-      <div class="block__header">
-         <h2>
-            Block title
-         </h2>
-         <p>
-            block subtitle
-         </p>
+   <div class="flex-centered +spacing">
+      <div class="block --shadow --padding">
+         <div class="block__header">
+            <h2>
+               Sample block
+            </h2>
+            <p>
+               with subtitle
+            </p>
+         </div>
+
+
+         <div class="block__content">
+            <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, illo, animi dolorum fugit nulla consectetur sunt atque placeat dolores at labore eaque nesciunt libero asperiores dignissimos. Fugit voluptatibus corporis quibusdam?
+            </p>
+         </div>
+
       </div>
    </div>
+
+   <div class="flex-centered +spacing">
+      <div class="block --shadow --padding">
+         <div class="block__header">
+            <h2>
+               Sample form
+            </h2>
+            <p>
+               with minimal inputs
+            </p>
+         </div>
+
+         <form action="" class="block__content">
+
+            <p>
+               <label for="" class="label --minimal --required">
+                  Name
+               </label>
+               <input type="text" class="input input__text --minimal">
+            </p>
+
+
+            <p>
+               <label for="" class="label --minimal --required">
+                  Resume
+               </label>
+               <textarea   name="" id="" cols="66" rows="10"
+                           class="input input__text --minimal"></textarea>
+            </p>
+
+         </form>
+
+         <div class="block__footer flex-centered">
+            <button class="button --primary">
+               Join
+            </button>
+         </div>
+
+      </div>
+   </div>
+
+   <div class="flex-centered +spacing">
+      <div class="block --shadow --padding">
+         <div class="block__header">
+            <h2>
+               Sample form
+            </h2>
+            <p>
+               with fancy inputs
+            </p>
+         </div>
+
+         <form action="" class="block__content">
+
+            <p>
+               <input   type="text" placeholder="Name"
+                        class="input input__text --fancy">
+            </p>
+            <p>
+               <input   type="email" value="invalid@email"
+                        class="input input__text --fancy error">
+            </p>
+
+         </form>
+
+         <div class="block__footer flex-centered">
+            <button class="button --primary">
+               Sign up
+            </button>
+         </div>
+
+      </div>
+   </div>
+
+   <div class="flex-centered +spacing">
+      <div class="block --shadow --padding">
+         <div class="block__header">
+            <h2>
+               Sample list
+            </h2>
+         </div>
+
+         <div class="list">
+
+            <div class="list__item --flex">
+               <div>
+                  <span class="+avatar"></span>
+               </div>
+               <span class="+flex-hack">
+                  item 1
+               </span>
+            </div>
+
+            <div class="list__item --flex">
+               <div>
+                  <span class="+avatar"></span>
+               </div>
+               <span class="+flex-hack">
+                  item 2
+               </span>
+            </div>
+
+            <div class="list__item --flex">
+               <div>
+                  <span class="+avatar"></span>
+               </div>
+               <span class="+flex-hack">
+                  item 3
+               </span>
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+
 </body>
 </html>

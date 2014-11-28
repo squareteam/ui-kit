@@ -2,16 +2,15 @@
 .block {
   width: 500px;
   border-radius: 2px;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
   background-color: #FFFFFF;
-}
-/* line 18, ../node_modules/csstyle/csstyle.scss */
-.block.\--centered {
-  margin: auto;
 }
 /* line 18, ../node_modules/csstyle/csstyle.scss */
 .block.\--padding {
   padding: 20px;
+}
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.block.\--shadow {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
 }
 /* line 64, ../node_modules/csstyle/csstyle.scss */
 .block__header {
@@ -23,9 +22,116 @@
   color: #66808f;
   font-size: 20px;
   font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-/* line 28, ../sass/components/block.scss */
+/* line 30, ../sass/components/block.scss */
 .block__header p {
   font-size: 18px;
   color: #8fa8b7;
+  margin: 0 0 10px;
+}
+/* line 64, ../node_modules/csstyle/csstyle.scss */
+.block__content {
+  padding: 10px 0;
+}
+
+/* line 10, ../node_modules/csstyle/csstyle.scss */
+.button {
+  margin: 30px 30px 15px 30px;
+  padding: 22px 70px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-family: Avenir;
+}
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.button.\--primary {
+  transition: background-color ease-in 150ms;
+  background-color: #3e5c6d;
+}
+/* line 22, ../sass/components/buttons.scss */
+.button.\--primary:hover {
+  background-color: #57c0df;
+}
+
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.label.\--minimal {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6d8593;
+  display: block;
+  padding-top: 30px;
+  margin-bottom: 5px;
+}
+/* line 18, ../sass/components/inputs.scss */
+.label.\--required:after {
+  content: " *";
+  color: #57c0df;
+  font-weight: 500;
+}
+
+/* line 33, ../sass/components/inputs.scss */
+.input__text:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.input__text.\--fancy {
+  font-size: 14px;
+  line-height: 21px;
+  color: #54bede;
+  font-weight: 300;
+  font-family: Avenir;
+  border: none;
+  border-bottom: 1px solid #cbe2e9;
+  margin-top: 30px;
+  height: 30px;
+}
+/* line 47, ../sass/components/inputs.scss */
+.input__text.\--fancy:focus {
+  outline: none;
+}
+/* line 51, ../sass/components/inputs.scss */
+.input__text.\--fancy.error, .input__text.\--fancy.ng-invalid.ng-dirty {
+  color: #fb7575;
+}
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.input__text.\--minimal {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cbe2e9;
+  font-size: 14px;
+  line-height: 21px;
+  color: #8fa8b7;
+  font-weight: 300;
+  font-family: Avenir;
+}
+/* line 66, ../sass/components/inputs.scss */
+.input__text.\--minimal:hover, .input__text.\--minimal:focus {
+  color: #57c0df;
+  outline: none;
+}
+
+/* line 10, ../node_modules/csstyle/csstyle.scss */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+}
+/* line 64, ../node_modules/csstyle/csstyle.scss */
+.list__item {
+  padding: 25px 0;
+  border-top: 1px solid #F3F3F3;
+}
+/* line 18, ../node_modules/csstyle/csstyle.scss */
+.list__item.\--flex {
+  display: flex;
 }

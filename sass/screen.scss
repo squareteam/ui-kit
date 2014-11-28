@@ -4,9 +4,43 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "csstyle";
 
 
 body {
    background-color: #efeff1;
    padding-top: 50px;
+
+   font-family: "Museo sans",sans-serif;
+   font-weight: 300;
+}
+
+
+.flex-centered {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+@include tweak(spacing) {
+   margin: 25px 0;
+}
+
+@include tweak(fluid) {
+   width: 100%;
+}
+
+@include tweak(avatar) {
+   display: inline-block;
+
+   height: 45px;
+   width: 45px;
+
+   border-radius: 50%;
+   background-color: #CCCCCC;
+}
+
+@include tweak(flex-hack) {
+   line-height: 45px;
+   margin-left: 25px;
 }

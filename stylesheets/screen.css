@@ -67,8 +67,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 9, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 body {
   background-color: #efeff1;
   padding-top: 50px;
+  font-family: "Museo sans",sans-serif;
+  font-weight: 300;
+}
+
+/* line 19, ../sass/screen.scss */
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* line 73, ../node_modules/csstyle/csstyle.scss */
+#csstyle .\+spacing {
+  margin: 25px 0;
+}
+
+/* line 73, ../node_modules/csstyle/csstyle.scss */
+#csstyle .\+fluid {
+  width: 100%;
+}
+
+/* line 73, ../node_modules/csstyle/csstyle.scss */
+#csstyle .\+avatar {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #CCCCCC;
+}
+
+/* line 73, ../node_modules/csstyle/csstyle.scss */
+#csstyle .\+flex-hack {
+  line-height: 45px;
+  margin-left: 25px;
 }
