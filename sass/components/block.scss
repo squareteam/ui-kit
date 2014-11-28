@@ -3,16 +3,16 @@
 @include component(block) {
 
    width: 500px;
-   border-radius:2px;
-   box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
-   background-color:#FFFFFF;
 
-   @include option(centered){
-      margin: auto;
-   }
+   border-radius:2px;
+   background-color:#FFFFFF;
 
    @include option(padding){
       padding:20px;
+   }
+
+   @include option(shadow){
+      box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
    }
 
    @include part(header){
@@ -23,12 +23,19 @@
          color: #66808f;
          font-size: 20px;
          font-weight: 300;
+         margin-top: 20px;
+         margin-bottom: 10px;
       }
 
       p {
          font-size: 18px;
          color: #8fa8b7;
+         margin: 0 0 10px;
       }
+   }
+
+   @include part(content) {
+      padding: 10px 0;
    }
 
 }
