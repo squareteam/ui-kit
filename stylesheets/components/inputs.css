@@ -1,0 +1,56 @@
+/* line 18, ../../node_modules/csstyle/csstyle.scss */
+.label.\--minimal {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6d8593;
+  display: block;
+  padding-top: 30px;
+  margin-bottom: 5px;
+}
+/* line 18, ../../sass/components/inputs.scss */
+.label.\--required:after {
+  content: " *";
+  color: #57c0df;
+  font-weight: 500;
+}
+
+/* line 33, ../../sass/components/inputs.scss */
+.input__text:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+/* line 18, ../../node_modules/csstyle/csstyle.scss */
+.input__text.\--fancy {
+  font-size: 14px;
+  line-height: 21px;
+  color: #54bede;
+  font-weight: 300;
+  font-family: Avenir;
+  border: none;
+  border-bottom: 1px solid #cbe2e9;
+  margin-top: 30px;
+  height: 30px;
+}
+/* line 47, ../../sass/components/inputs.scss */
+.input__text.\--fancy:focus {
+  outline: none;
+}
+/* line 51, ../../sass/components/inputs.scss */
+.input__text.\--fancy.error, .input__text.\--fancy.ng-invalid.ng-dirty {
+  color: #fb7575;
+}
+/* line 18, ../../node_modules/csstyle/csstyle.scss */
+.input__text.\--minimal {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cbe2e9;
+  font-size: 14px;
+  line-height: 21px;
+  color: #8fa8b7;
+  font-weight: 300;
+  font-family: Avenir;
+}
+/* line 66, ../../sass/components/inputs.scss */
+.input__text.\--minimal:hover, .input__text.\--minimal:focus {
+  color: #57c0df;
+  outline: none;
+}

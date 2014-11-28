@@ -1,0 +1,75 @@
+@import "csstyle";
+@import "_mixins";
+@import "_colors";
+
+@include component(label) {
+
+   @include option(minimal) {
+      font-size: 14px;
+      font-weight: 500;
+      color: #6d8593;
+
+      display: block;
+      padding-top: 30px;
+      margin-bottom: 5px;
+   }
+
+   @include option(required) {
+      &:after {
+         content:" *";
+         color: $blue_active;
+         font-weight: 500;
+      }
+   }
+
+}
+
+@include component(input) {
+
+
+   @include part(text) {
+
+      // Chrome autofill hack to prevent ugly yellow background color
+      &:-webkit-autofill {
+         -webkit-box-shadow: 0 0 0 1000px white inset;
+      }
+
+      @include option(fancy) {
+
+         @include font(Avenir, 300, 14px, #54bede, 21px);
+
+         border: none;
+         border-bottom: 1px solid #cbe2e9;
+
+         margin-top: 30px;
+         height: 30px;
+
+         &:focus{
+            outline: none;
+         }
+
+         &.error,
+         &.ng-invalid.ng-dirty{
+            color: #fb7575;
+            // background: transparent url($img_dir + 'error_picto.png') no-repeat right;
+         }
+      }
+
+      @include option(minimal) {
+         padding: 10px;
+
+         border-radius:5px;
+         border: 1px solid #cbe2e9;
+
+         @include font(Avenir, 300, 14px, #8fa8b7, 21px);
+
+         &:hover, &:focus {
+            color: $blue_active;
+            outline:none;
+         }
+
+      }
+
+   }
+
+}
