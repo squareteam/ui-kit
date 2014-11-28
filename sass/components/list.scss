@@ -1,0 +1,20 @@
+@import "csstyle";
+@import "_mixins";
+@import "_colors";
+
+@include component(list) {
+
+   list-style: none;
+   padding: 0;
+   margin: 40px 0;
+
+   @include part(item) {
+      padding: 25px 0;
+      border-top: 1px solid #F3F3F3;
+
+      @include option(flex) {
+         display: flex;
+      }
+   }
+
+}

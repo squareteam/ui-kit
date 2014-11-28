@@ -1,0 +1,15 @@
+/* line 10, ../../node_modules/csstyle/csstyle.scss */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+}
+/* line 64, ../../node_modules/csstyle/csstyle.scss */
+.list__item {
+  padding: 25px 0;
+  border-top: 1px solid #F3F3F3;
+}
+/* line 18, ../../node_modules/csstyle/csstyle.scss */
+.list__item.\--flex {
+  display: flex;
+}
