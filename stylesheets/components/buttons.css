@@ -1,0 +1,26 @@
+/* line 10, ../../node_modules/csstyle/csstyle.scss */
+.button {
+  margin: 30px 30px 15px 30px;
+  padding: 22px 70px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-family: Avenir;
+}
+/* line 18, ../../node_modules/csstyle/csstyle.scss */
+.button.\--primary {
+  transition: background-color ease-in 150ms;
+  background-color: #3e5c6d;
+}
+/* line 22, ../../sass/components/buttons.scss */
+.button.\--primary:hover {
+  background-color: #57c0df;
+}

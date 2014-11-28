@@ -1,0 +1,27 @@
+@import "csstyle";
+@import "_mixins";
+@import "_colors";
+
+@include component(button) {
+
+   margin:30px 30px 15px 30px;
+   padding: 22px 70px;
+
+   @include border-radius(3px);
+   border:none;
+   outline: none;
+
+   cursor: pointer;
+   @include font(Avenir, normal, 18px, #FFFFFF, 21px);
+
+
+   @include option(primary) {
+      transition: background-color ease-in 150ms;
+      background-color:$dark_blue;
+
+      &:hover {
+         background-color:#57c0df;
+      }
+   }
+
+}
